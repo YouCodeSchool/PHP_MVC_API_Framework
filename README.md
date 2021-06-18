@@ -1,0 +1,2 @@
+# PHP_MVC_API_Framework
+Simple PHP framework that manages the API, WEB or both sides of an application with an MVC architecture and structure.  The API is handled through a Middleware and partially with MVC (only Controllers and Models) with a JWT Token Authentication.  The WEB portion is handled fully with MVC with simple flexible routing and a customized Views system (CVS : Component View System).
