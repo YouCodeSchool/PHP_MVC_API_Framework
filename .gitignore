@@ -1,0 +1,14 @@
+# VSCode
+.vscode
+
+# Composer
+/composer_vendor
+/vendor
+composer.lock
+composer.phar
+
+# Node
+/node_modules
+
+# ENV Variables
+.env
