@@ -15,7 +15,6 @@ The WEB portion is handled fully with MVC with simple flexible routing and a cus
   * [Web](#web)
   * [Api](#api)
 * [Notes](#notes)
-* [License](#license)
 <!--te-->
 
 # Installation
@@ -26,6 +25,8 @@ Install dependencies and other packages
 ```bash
 composer install
 ```
+
+[Back to top](#documentation-table-of-contents)
 
 # Usage
 
@@ -42,6 +43,8 @@ or navigate to public folder then run the server:
 cd public
 php -S localhost:8080
 ```
+
+[Back to top](#documentation-table-of-contents)
 
 
 # Environment variables
@@ -73,6 +76,8 @@ DSN=mysql:host=${HOST};dbname=${DB_NAME}
 # API Token Authentication Secret Keys: *fill with your own key or add new keys as needed
 SECRET_KEY=
 ```
+
+[Back to top](#documentation-table-of-contents)
 
 # Constants
 
@@ -116,6 +121,9 @@ define('ACCESS_TOKEN_ERRORS',	302);
 
 ?>
 ```
+
+[Back to top](#documentation-table-of-contents)
+
 
 # Routing
 
@@ -264,6 +272,8 @@ Navigating to a page that doesn't exists will render an error 404 message:
 - The purpose of this system is to avoid repepetive sections of code for elements and treat them as reused components. The idea is based on multiple frontend frameworks.
 - For styling components either link to a css file (global or specific to the component) or open style tags inside the component file.
 
+[Back to top](#documentation-table-of-contents)
+
 ## Api 
 
 For the API, the routes specified in `public/index.html` are the endpoints. You can decide to have one endpoint (means one API controller holding all the methods) or multiple depending on each API Controller. The method specified in `public/index.html` is a special method inherited from the Middleware that processes a method sent with the data to the API to invoke it on the Controller object if it exists.
@@ -397,6 +407,8 @@ Below the method that processes the Controller methods sent part of the data:
     }
 ?>
 ````
+
+[Back to top](#documentation-table-of-contents)
 
 # Notes
 - This is mainly a personal project made for the purpose of learning and setting up a base template for future projects and also a plarform for future updates and added features.
